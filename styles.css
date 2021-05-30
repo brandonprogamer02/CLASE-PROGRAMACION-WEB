@@ -1,0 +1,40 @@
+body {
+     width: 100%;
+}
+
+.border-round-img-top {
+     width: calc(100% + 10px);
+     position: relative;
+     left: -10px;
+}
+
+.border-round-img-bottom {
+     width: calc(100% + 10px);
+     position: relative;
+     left: -10px;
+     transform: rotate(180deg);
+     margin-top: -20px;
+}
+
+.bg-color-purple {
+     background-color: #31195E;
+}
+
+.container {
+     background-color: #31195E;
+     margin-top: -25px;
+     margin-right: 10px;
+     padding: 40px;
+}
+
+.container * {
+     color: white;
+}
+
+.border {
+     border: 2px solid rgb(177, 177, 177);
+}
+
+.cursor-pointer {
+     cursor: pointer;
+}
